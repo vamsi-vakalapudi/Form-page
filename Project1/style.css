@@ -1,0 +1,42 @@
+.navbar {
+  opacity: 0.8;
+}
+#title {
+  background-image: url(home.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+#title .dark-overlay {
+  position: absolute;
+  top: 15;
+  left: 0;
+  width: 100%;
+  height: 43.9em;
+  background-color: rgba(0,0,0,0.7);
+}
+#title .fas {
+  color: #008ed6;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.head-content {
+  padding-top: 150px;
+}
+#explore {
+  background-color: #333333;
+}
+#explore-section .fas {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#create-section .fas {
+  color: #008ed6;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
